@@ -31,6 +31,7 @@ return [
      * Allowed types from Google response
      */
     'allowed_types' => [
+        'locality',
         'street_number',
         'street_address',
         'route',
@@ -48,11 +49,16 @@ return [
      * Allowed first component types
      */
     'allowed_first_component_types' => [
+        'locality',
         'street_number',
         'street_address',
         'route',
         'premise',
         'subpremise',
-        'floor'
+        'floor',
+        'post_box',
+        'postal_code',
+        'establishment',
+        'room'
     ]
 ];
